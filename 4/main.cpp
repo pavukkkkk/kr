@@ -38,4 +38,5 @@ int main() {
     char *m=f(s1,s2, len);
     vivod (m,len);
     return 0;
+    delete [] m;
 }
